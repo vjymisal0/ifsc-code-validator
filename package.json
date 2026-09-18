@@ -1,0 +1,47 @@
+{
+  "name": "ifsc-code-validator",
+  "version": "1.0.0",
+  "description": "Zero-dependency validator, parser, and bank lookup for Indian IFSC (Indian Financial System Code) numbers.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "ifsc",
+    "ifsc-validator",
+    "ifsc-code",
+    "india",
+    "banking",
+    "fintech",
+    "rbi",
+    "payout",
+    "kyc",
+    "neft",
+    "rtgs",
+    "imps"
+  ],
+  "author": "vjymisal0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjymisal0/ifsc-code-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vjymisal0/ifsc-code-validator/issues"
+  },
+  "homepage": "https://github.com/vjymisal0/ifsc-code-validator#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
