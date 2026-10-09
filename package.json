@@ -1,6 +1,6 @@
 {
   "name": "ifsc-code-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency validator, parser, and bank lookup for Indian IFSC (Indian Financial System Code) numbers.",
   "type": "module",
   "main": "./src/index.js",
@@ -8,11 +8,13 @@
   "exports": {
     ".": {
       "types": "./src/index.d.ts",
-      "import": "./src/index.js"
-    }
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
-    "src"
+    "src",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "test": "node --test test/*.test.js"
